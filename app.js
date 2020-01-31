@@ -24,6 +24,9 @@ methods: {
     updateXy:function(event){
         this.x = event.offsetX;
         this.y = event.offsetY;
+    },
+    click: function(){
+        alert('GWAPO KO');
     }
 }
 
