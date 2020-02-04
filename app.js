@@ -27,6 +27,9 @@ methods: {
     },
     click: function(){
         alert('GWAPO KO');
+    },
+    logname: function(){
+        console.log('your entered')
     }
 }
 

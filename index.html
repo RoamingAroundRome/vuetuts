@@ -22,6 +22,15 @@
         <button v-on:dblclick="subtract(10)">Subtract 10 Years</button>
         <p>{{ num }}</p>
       </div>
+      <div>
+          <h1> Keyboard Events </h1>
+          <label>Name:</label>
+          <input type="text" v-on:keyup.enter="logName"/>
+          <label>Age:</label>
+          <input type="number" v-on:keyup="logAge">
+          <label>Date:</label>
+          <input type="datetime" v-on:keyup="logNDate"/>
+        </div>
       <p v-html="websiteTag"></p>
       <a v-on:click.prevent="click" href="website">Net Ninja</a>
       <-- Learn more about modifiers-->
